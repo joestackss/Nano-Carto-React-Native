@@ -1,4 +1,4 @@
-# Nanocarto 🚀
+# Nano Carto 🚀
 
 An AI-powered mobile app for creating stunning posters with professional templates and intelligent generation capabilities.
 
