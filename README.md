@@ -1,50 +1,179 @@
-# Welcome to your Expo app 👋
+# Nanocarto 🚀
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An AI-powered mobile app for creating stunning posters with professional templates and intelligent generation capabilities.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+### 🎨 AI-Powered Poster Creation
+
+- **Smart Script Mode**: Simplified AI generation for quick poster creation
+- **Advanced Script Mode**: Detailed customization options for professional results
+- Natural language prompts to describe your vision
+
+### 🎭 Professional Templates
+
+Choose from a variety of professionally designed templates:
+
+- **Display** - Eye-catching display posters
+- **Promotion** - Marketing and promotional materials
+- **Branding** - Brand-focused designs
+- **Announcement** - Event and announcement posters
+- **Professional** - Business and corporate designs
+
+### ⚙️ Customizable Settings
+
+- **Multiple Size Options**:
+  - 1080 x 1920 px (Mobile Portrait)
+  - 1920 x 1080 px (Mobile Landscape)
+  - 1080 x 1080 px (Square)
+  - 1200 x 1200 px (Large Square)
+- **Category Selection**: Various poster categories to choose from
+- **Real-time Preview**: See your changes as you make them
+
+### ✨ User Experience
+
+- Smooth onboarding with animated walkthrough
+- Haptic feedback for enhanced interaction
+- Modern dark theme UI
+- Animated transitions and micro-interactions
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Expo](https://expo.dev/) & React Native
+- **Language**: TypeScript
+- **Styling**: [NativeWind](https://www.nativewind.dev/) (Tailwind CSS for React Native)
+- **Navigation**: [Expo Router](https://expo.github.io/router/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
+- **Data Fetching**: [TanStack Query](https://tanstack.com/query)
+- **Animations**: [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
+- **UI Components**: Expo Vector Icons, Expo Image, Expo Blur
+
+## 📦 Installation
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+- Expo CLI
+- iOS Simulator (for iOS development)
+- Android Studio (for Android development)
+
+### Steps
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <repository-url>
+   cd nanocarto
+   ```
+
+2. **Install dependencies**
 
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-2. Start the app
+3. **Start the development server**
 
    ```bash
-   npx expo start
+   npm start
+   # or
+   yarn start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Run on your preferred platform**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+   # iOS
+   npm run ios
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+   # Android
+   npm run android
 
-## Get a fresh project
+   # Web
+   npm run web
+   ```
 
-When you're ready, run:
+## 🚀 Usage
 
-```bash
-npm run reset-project
+1. **Launch the app** and complete the onboarding process
+2. **Choose your creation mode**: Smart Script for quick generation or Advanced Script for detailed control
+3. **Select a template** from the available categories
+4. **Describe your poster** using natural language in the prompt field
+5. **Customize settings** like size and category
+6. **Generate your poster** and watch the AI work its magic!
+
+## 📁 Project Structure
+
+```
+nanocarto/
+├── app/                    # App screens and navigation
+│   ├── (tabs)/            # Tab-based screens
+│   │   └── create.tsx     # Main poster creation screen
+│   ├── _layout.tsx        # Root layout
+│   └── index.tsx          # Onboarding/welcome screen
+├── assets/                # Static assets (images, icons)
+├── src/
+│   └── types/            # TypeScript type definitions
+├── app.json              # Expo configuration
+├── package.json          # Dependencies and scripts
+├── tailwind.config.js    # Tailwind CSS configuration
+└── tsconfig.json         # TypeScript configuration
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🎯 Key Components
 
-## Learn more
+- **Onboarding Screen**: Interactive walkthrough with animated pagination
+- **Create Screen**: Main poster generation interface with template selection
+- **Template Gallery**: Horizontal scrolling template selection
+- **Mode Selector**: Animated toggle between Smart and Advanced modes
+- **Prompt Input**: Multi-line text input with focus animations
+- **Settings Panel**: Customizable size and category options
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🔧 Development
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Available Scripts
 
-## Join the community
+- `npm start` - Start the Expo development server
+- `npm run android` - Run on Android device/emulator
+- `npm run ios` - Run on iOS device/simulator
+- `npm run web` - Run on web browser
+- `npm run lint` - Run ESLint for code quality
 
-Join our community of developers creating universal apps.
+### Configuration
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Expo Configuration**: Edit `app.json` for app-specific settings
+- **Styling**: Customize colors and themes in `tailwind.config.js`
+- **TypeScript**: Type definitions in `src/types/`
+
+## 📱 Platform Support
+
+- ✅ iOS (iPhone)
+- ✅ Android
+- ✅ Web (PWA)
+- ❌ iPad (disabled in config)
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Built with [Expo](https://expo.dev/)
+- UI components inspired by modern design principles
+- Icons by [Ionicons](https://ionic.io/ionicons)
+- Images from [Unsplash](https://unsplash.com/)
+
+---
+
+**Made with ❤️ using React Native and AI**

@@ -21,7 +21,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 
-// Separate component for pagination dot to fix React Hook rule
+// This is a separate component for pagination dot to fix React Hook rule
 const PaginationDot = ({
   index,
   scrollX,
@@ -66,6 +66,7 @@ const PaginationDot = ({
   );
 };
 
+// This is the data for the onboarding screen
 const onboardingData = [
   {
     id: 1,

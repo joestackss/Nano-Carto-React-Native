@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "nanocarto",
-    "slug": "nanocarto",
+    "slug": "nanocrato",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c71ee722-e508-407f-8c10-b5ccfc8b2c8d"
+      }
+    },
+    "owner": "myinnovations"
   }
 }
