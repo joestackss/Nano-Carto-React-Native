@@ -130,7 +130,7 @@ export default function CreateScreen() {
   }));
 
   return (
-    <SafeAreaView className="flex-1 bg-black">
+    <SafeAreaView className="flex-1 bg-black" edges={["top"]}>
       <StatusBar barStyle="light-content" backgroundColor="#000000" />
 
       {/* Header */}
