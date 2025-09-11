@@ -63,7 +63,7 @@ Choose from a variety of professionally designed templates:
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/joestackss/Nano-Carto-React-Native.git
    cd nanocarto
    ```
 
@@ -176,4 +176,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ using React Native and AI**
+**Made with ❤️ by Joseph Popoola using React Native**
